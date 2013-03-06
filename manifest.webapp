@@ -12,7 +12,7 @@
   "activities": {
     "error": {
         "filters": {
-          type: ["application/json"],
+          "type": ["application/json"]
         },
         "href": "index.html",
         "disposition": "inline"
