@@ -1,6 +1,7 @@
 CACHE MANIFEST
-# v0
+# v1
 
 index.html
 media/style.css
 media/cypress.js
+media/ripcord.js
