@@ -3,7 +3,7 @@
   "version": "1.0",
   "description": "Demos the ripcord error reporting app",
   "launch_path": "/index.html",
-  "appcache_path": "/manifest.appcache",
+  "appcache_path": "/cypress/manifest.appcache",
   "icons": {
     "64": "/media/64.png",
     "128": "/media/128.png"
