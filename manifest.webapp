@@ -3,9 +3,8 @@
   "version": "1.0",
   "description": "The ripcord error reporting app",
   "launch_path": "/index.html",
-  "appcache_path": "ripcord/manifest.appcache",
-  "icons": {
-  },
+  "appcache_path": "/ripcord/manifest.appcache",
+  "icons": { },
   "developer": {
     "name": "Lonnen",
     "url": "http://xor.lonnen.com/"
@@ -14,7 +13,7 @@
     "error": {
         "filters": {
           type: ["application/json"],
-        }
+        },
         "href": "index.html",
         "disposition": "inline"
       }
