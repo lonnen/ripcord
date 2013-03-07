@@ -1,7 +1,3 @@
-//if (navigator.mozSetMessageHandler) {
-	navigator.mozSetMessageHandler('activity', function(){});
-//}
-
 var handleMozActivity = function(req) {
 	var source = req.source,
 		name = source.name,
@@ -57,10 +53,16 @@ var actEvent = hasTouch ? "touchstart" : "click";
 	request.onsuccess = function() {
 		if (!request.result) {
 			promptInstall();
+			return;
+		}
+		// only register if the app is installed
+		if (navigator.mozSetMessageHandler) {
+			navigator.mozSetMessageHandler('activity', function(){});
 		}
 	}
 	request.onerror = function() {
 		promptInstall();
+
 	}
 })();
 
