@@ -1,5 +1,5 @@
 if (navigator.mozSetMessageHandler) {
-	// navigator.mozSetMessageHandler('activity', handleMozActivity);
+	navigator.mozSetMessageHandler('activity', handleMozActivity);
 }
 
 var handleMozActivity = function(req) {
