@@ -83,6 +83,7 @@ function installApp(e) {
     var r = window.navigator.mozApps.install(manifestPath);
     r.onsuccess = function() {
         console.log('success!');
+        installEl.style.display="none";
     }
     r.onerror = function() {
         console.log('error!');
