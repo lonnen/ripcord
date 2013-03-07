@@ -1,6 +1,6 @@
-if (navigator.mozSetMessageHandler) {
-	navigator.mozSetMessageHandler('activity', handleMozActivity);
-}
+//if (navigator.mozSetMessageHandler) {
+	navigator.mozSetMessageHandler('activity', function(){});
+//}
 
 var handleMozActivity = function(req) {
 	var source = req.source,
