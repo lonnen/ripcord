@@ -11,10 +11,7 @@
   },
   "activities": {
     "error": {
-        "filters": {
-          "type": ["application/json"]
-        },
-        "href": "index.html",
+        "href": "/ripcord/index.html",
         "disposition": "inline"
       }
   },
