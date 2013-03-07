@@ -36,6 +36,8 @@ var handleMozActivity = function(req) {
 		template,
 		{'source': source, 'data': enumeratedData}
 	);
+
+	req.postResul();
 };
 
 document.body.addEventListener('dragstart', function(e) {
