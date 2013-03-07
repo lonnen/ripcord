@@ -57,7 +57,7 @@ var actEvent = hasTouch ? "touchstart" : "click";
 		}
 		// only register if the app is installed
 		if (navigator.mozSetMessageHandler) {
-			navigator.mozSetMessageHandler('activity', function(){});
+			navigator.mozSetMessageHandler('activity', handleMozActivity);
 		}
 	}
 	request.onerror = function() {
