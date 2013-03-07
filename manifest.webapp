@@ -2,7 +2,7 @@
   "name": "Ripcord",
   "version": "1.0",
   "description": "The ripcord error reporting app",
-  "launch_path": "/index.html",
+  "launch_path": "/ripcord/index.html",
   "appcache_path": "/ripcord/manifest.appcache",
   "icons": { },
   "developer": {
