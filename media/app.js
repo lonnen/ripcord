@@ -36,7 +36,7 @@ var handleMozActivity = function(req) {
 		template,
 		{'source': source, 'data': enumeratedData}
 	);
-
+	console.log(navigator.userAgent);
 	req.postResult();
 };
 
