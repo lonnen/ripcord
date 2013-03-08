@@ -20,8 +20,7 @@ var handleMozActivity = function(req) {
 			}
 			return enumerate(data);
 		})(data),
-		template = Mustache.compile(
-				   "<h2>{{source}} encountered an error.</h2>" +
+		template = "<h2>{{source}} encountered an error.</h2>" +
 				   "<ul>" +
 				   	 "{{#datums}}" +
 				     	"<li><em>{{name}}</em> - {{property}}</li>" +
